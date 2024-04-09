@@ -91,9 +91,10 @@ window.addEventListener('load',function(event){
       console.log(result.codeResult.code);
       jan.value+=result.codeResult.code+'\n';
       jan.scrollTop=jan.scrollHeight;
-      jan.copy;
       DetectedCode='';
       DetectedCount=0;
+      jan.copy;
+      return false;
     }
   });
 });
